@@ -1,0 +1,317 @@
+@font-face {
+    font-family: 'Polaris';
+    src: url('/font/Polaris.otf');
+}
+
+@font-face {
+    font-family: 'RussoOne';
+    src: url('/font/RussoOne.ttf');
+}
+
+.white {
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+html{
+    height: 100%;
+    background-image: url(/img/bg.png);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-color: #050505;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    margin: auto;
+    max-width: 1240px;
+}
+
+.logo {
+    max-height: 1000px;
+    text-align: center;
+}
+
+#logo-img {
+    max-height: 70px;
+    transition: all .3s;
+
+}
+
+#logo-img:hover{
+    opacity: .7;
+}
+
+
+
+.links{
+    max-width: 350px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.case {
+    margin: auto;
+    background-color: #121212;
+    display: flex;
+    width: 300px;
+    height: 50px;
+    color: white;
+    align-items: center;
+    transition: all .3s;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+
+.icon{
+    margin: 5px;
+    margin-left: 10px;
+    font-size: 35px;
+}
+
+.case-text {
+    margin-left: 30px;
+    transition: all .3s;
+    font-family: 'Polaris';
+}
+
+.case-links {
+    margin-left: 77px;
+    transition: all .3s;
+    font-size: 15px;
+}
+
+.case:hover {
+    background-color: #282828;
+
+    .icon{
+        color: #f4f5ff;
+    }
+    .case-text {
+        margin-left: 45px;
+    }
+    .case-links {
+        margin-left: 58px;
+        font-size: 17px;
+        color: rgb(255, 92, 92);
+    }
+}
+
+.case-text-2 {
+    margin-left: 30px;
+    transition: all .3s;
+    font-family: 'Polaris';
+}
+
+.case-links-2 {
+    margin-left: 90px;
+    transition: all .3s;
+    font-size: 15px;
+}
+
+.case:hover {
+    background-color: #282828;
+    .case-text-2 {
+        margin-left: 50px;
+    }
+    .case-links-2 {
+        margin-left: 70px;
+        font-size: 17px;
+        color: rgb(255, 92, 92);
+    }
+}
+
+.case-text-3 {
+    margin-left: 30px;
+    transition: all .3s;
+    font-family: 'Polaris';
+}
+
+.case-links-3 {
+    margin-left: 63px;
+    transition: all .3s;
+    font-size: 15px;
+}
+
+.case:hover {
+    background-color: #282828;
+    .case-text-3 {
+        margin-left: 45px;
+    }
+    .case-links-3{
+        margin-left: 48px;
+        font-size: 17px;
+        color: rgb(255, 92, 92);
+    }
+}
+
+.case-text-4 {
+    margin-left: 30px;
+    transition: all .3s;
+    font-family: 'Polaris';
+}
+
+.case-links-4 {
+    margin-left: 105px;
+    transition: all .3s;
+    font-size: 15px;
+}
+
+.case:hover {
+    background-color: #282828;
+    .case-text-4 {
+        margin-left: 55px;
+    }
+    .case-links-4 {
+        margin-left: 80px;
+        font-size: 17px;
+        color: rgb(255, 92, 92);
+    }
+}
+
+.card {
+    text-align: center;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: #121212;
+    width: 350px;
+    height: 110px;
+    margin: auto;
+    margin-top: 35px;
+    transition: all .3s;
+}
+
+.card-top-text{
+    font-family: 'Polaris';
+    font-size: 19px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.card-main-text{
+    font-family: 'Polaris';
+    font-size: 10px;
+    opacity: .4;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.card-main-a{
+    font-family: 'Polaris';
+    font-size: 10px;
+    color: rgb(110, 50, 50);
+    margin-left: 5px;
+    transition: all .4s;
+}
+
+.donate-link{
+    display: flex;
+    width: 338px;
+    margin: auto;
+    align-items: center;
+}
+
+.donate-link-text {
+    font-family: 'Polaris';
+    padding-left: 3px;
+    font-size: 10px;
+}
+
+.card:hover{
+    border-color: #282828;
+    .card-main-a{
+        margin-left: 40px;
+        color: rgb(255, 92, 92);
+    }
+}
+
+.card-2 {
+    text-align: center;
+    border-radius: 6px;
+    background-color: #121212;
+    width: 350px;
+    height: 150px;
+    margin: auto;
+    margin-top: 6px;
+    transition: all .3s;
+}
+
+.card-2-top-text{
+    padding-top: 12px;
+}
+
+.contact-name { 
+    margin: 0;
+    font-family: 'RussoOne';
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.contact-link {
+    margin: auto;
+    font-family: 'RussoOne';
+    font-size: 10px;
+    transition: all .4s;
+    text-transform: lowercase;
+}
+
+.contact-link:hover {
+    color: rgb(255, 92, 92);
+}
+
+.card-2:hover{
+    .contact-link {
+        font-size: 12px;
+    }
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 300px;
+    margin: auto;
+}
+
+.version {
+    display: flex;
+    max-width: 300px;
+    margin: auto;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.version-name {
+    padding-right: 5px;
+    font-family: 'RussoOne';
+    margin: auto;
+    font-size: 11px;
+    opacity: .8;
+}
+
+.last-update {
+    font-family: 'RussoOne';
+    font-size: 11px;
+    margin: auto;
+    opacity: .8;
+}
+
+.footer-info {
+    text-align: center;
+    font-family: 'RussoOne';
+    font-size: 11px;
+    text-transform: uppercase;
+}
